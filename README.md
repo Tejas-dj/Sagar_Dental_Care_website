@@ -1,91 +1,116 @@
 # Sagar Dental Care
 
-<div align="center">
-  <h3>Modern, Fast, and Highly Interactive Dental Clinic Website</h3>
-  <p>A premium web experience built for Sagar Dental Care featuring cutting-edge animations, responsive design, and an intuitive user interface.</p>
-  <p>🌍 <strong>Live Website: <a href="https://sagardentalcare.com">sagardentalcare.com</a></strong></p>
-</div>
+> A premium, high-performance web application serving as the digital storefront for a dental clinic with 27 years of clinical excellence. 
+
+🌍 **Live Website:** [sagardentalcare.com](https://sagardentalcare.com)
 
 ---
 
-## 🚀 Overview
+## Table of Contents
 
-**Sagar Dental Care** is a comprehensive, production-ready web application built to serve as the digital storefront for a dental clinic with 27 years of excellence. Designed with a strict focus on "Clinical Luxury," the application balances high-performance modern web technologies with a highly polished aesthetic.
+- [Project Overview](#project-overview)
+- [Key Features](#key-features)
+- [Architecture & Technology Stack](#architecture--technology-stack)
+- [Getting Started](#getting-started)
+- [Performance & SEO](#performance--seo)
+- [Author](#author)
 
-This project was built from the ground up as a real-world freelance/portfolio project. It leverages the latest features of **Next.js**, advanced animation libraries like **Framer Motion** and **GSAP**, and a fully custom CSS Modules architecture to deliver a seamless, app-like browsing experience.
+---
 
-## ✨ Key Features
+## Project Overview
 
-- **Dynamic Hero Sections**: Immersive video backgrounds integrated seamlessly into page headers.
-- **Complex UI Animations**:
-  - Custom `StaggeredMenu` for mobile navigation with staggered list animations.
-  - Infinite marquee scrolling loops for logos and patient testimonials.
-  - Parallax scrolling effects (`ScrollFloat`) and text reveal animations (`SplitText`, `BlurText`).
-  - Interactive "Spotlight" hover effects on feature cards.
-- **Responsive Design**: A flawless mobile-first implementation ensuring perfect UI rendering across all device breakpoints.
-- **Modern Interactions**: Click-to-copy clipboard functionality for contact information complete with animated toast notifications.
-- **SEO & Performance Optimized**: Built on Next.js App Router with statically generated pages and optimized asset loading.
+Sagar Dental Care is a comprehensive, production-ready web application built to deliver a seamless, app-like browsing experience. Designed with a strict focus on "Clinical Luxury," the application balances high-performance modern web technologies with a highly polished aesthetic.
 
-## 🛠️ Tech Stack & Architecture
+This project was developed as a comprehensive architectural solution, demonstrating the integration of cutting-edge React frameworks, advanced animation libraries, and a scalable, token-based design system.
 
-- **Framework**: [Next.js (v16+)](https://nextjs.org/) with App Router
-- **Language**: [TypeScript](https://www.typescriptlang.org/) & [React (v19)](https://react.dev/)
-- **Styling**: Vanilla Custom CSS Modules with a strict, token-based Global Design System (`globals.css`).
-- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [GSAP](https://gsap.com/)
-- **Smooth Scrolling**: [Lenis](https://lenis.studiofreight.com/)
-- **Icons**: [Lucide React](https://lucide.dev/)
+## Key Features
 
-## 🧠 Challenges & Solutions
+- **Dynamic Media Integration:** Immersive video backgrounds seamlessly integrated into page headers for an engaging first impression.
+- **Advanced UI/UX Choreography:** 
+  - Custom staggered mobile navigation systems.
+  - Infinite marquee scrolling loops for partner logos and patient testimonials.
+  - Parallax scrolling effects and interactive text-reveal animations.
+- **Fluid Responsive Design:** A stringent mobile-first implementation ensuring pixel-perfect UI rendering across all device breakpoints.
+- **Interactive Elements:** Click-to-copy clipboard functionality for contact information, integrated with accessible toast notifications.
+- **Optimized Content Delivery:** Built on the Next.js App Router for statically generated pages, optimized asset loading, and superior Core Web Vitals.
 
-Developing this application presented several unique UI/UX challenges that required creative engineering:
+## Architecture & Technology Stack
 
-1. **Complex Z-Index Management**:
-   - _Challenge_: Ensuring the mobile `StaggeredMenu` layered correctly over sticky page navigation elements (like the Treatments page category pills) without breaking DOM flow.
-   - _Solution_: Engineered a strict, variable-based z-index scale (`--z-base`, `--z-sticky`, `--z-overlay`) applied globally.
+The application is built upon a modern, robust technology stack designed for scale, maintainability, and performance:
 
-2. **Liquid Smooth Animations**:
-   - _Challenge_: Standard CSS transitions felt rigid for a premium clinic website.
-   - _Solution_: Combined GSAP for intricate layout timelines (like the Staggered Menu opening sequence) and Framer Motion for scroll-linked orchestrations and component mounts.
+| Category | Technology | Description |
+| :--- | :--- | :--- |
+| **Framework** | [Next.js (v14/v15+)](https://nextjs.org/) | App Router architecture for SSR/SSG and server components. |
+| **Core UI** | [React](https://react.dev/) & [TypeScript](https://www.typescriptlang.org/) | Strongly typed, component-driven UI development. |
+| **Styling** | CSS Modules | Vanilla Custom CSS Modules with a strict, token-based Global Design System. |
+| **Animations** | [Framer Motion](https://www.framer.com/motion/) & [GSAP](https://gsap.com/) | Orchestrated page transitions, scroll-linked interactions, and timeline animations. |
+| **Scroll Handling**| [Lenis](https://lenis.studiofreight.com/) | Liquid smooth scrolling implementation. |
+| **Iconography** | [Lucide React](https://lucide.dev/) | Consistent, lightweight SVG icons. |
 
-3. **Responsive Media Constraints**:
-   - _Challenge_: Maintaining the "Clinical Luxury" aesthetic on small viewports where complex elements like the floating Google Ratings widget and floating videos would cluster.
-   - _Solution_: Applied aggressive `@media` query restructuring and utilized CSS `clamp()` functions to fluidly scale typography and layout widths.
+## Getting Started
 
-## 💻 Getting Started
+Follow these instructions to set up the project locally for development and testing purposes.
 
 ### Prerequisites
 
-- Node.js 18+
-- npm, yarn, pnpm, or bun
+Ensure you have the following installed on your local development environment:
+- Node.js (v18.0.0 or higher)
+- A package manager (npm, yarn, pnpm, or bun)
 
 ### Installation
 
-1. Clone the repository:
-
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/yourusername/sagar-dental-care.git
    ```
 
-2. Navigate into the directory and install dependencies:
-
+2. **Navigate to the project directory:**
    ```bash
    cd sagar-dental-care
+   ```
+
+3. **Install dependencies:**
+   ```bash
    npm install
    ```
 
-3. Start the development server:
+### Development Server
 
-   ```bash
-   npm run dev
-   ```
+Start the local development server:
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+```bash
+npm run dev
+```
 
-## 👨‍💻 Author
+The application will be available at `http://localhost:3000`.
+
+### Building for Production
+
+To create an optimized production build:
+
+```bash
+npm run build
+```
+
+To start the production server:
+
+```bash
+npm start
+```
+
+## Performance & SEO
+
+This project prioritizes search engine visibility and user experience metrics:
+- **Semantic HTML5:** Enhances accessibility and machine readability.
+- **Next.js Metadata API:** Dynamic generation of `title`, `meta` descriptions, and OpenGraph tags for rich social sharing.
+- **Asset Optimization:** Automatic image optimization and lazy loading via `next/image`.
+- **Z-Index Architecture:** A strict, variable-based z-index scale (`--z-base`, `--z-sticky`, `--z-overlay`) applied globally to prevent rendering conflicts and UI regressions.
+
+## Author
 
 **Tejas D. Jaiprakash**
-
 - Artificial Intelligence & Machine Learning Engineering Student
-- Passionate about bridging the gap between cutting-edge tech and real-world business needs.
+- *Project Focus:* Bridging the gap between cutting-edge engineering and real-world business requirements through performant, scalable web solutions.
 
-_This project was developed as a real-world deliverable, utilizing AI-assisted workflows to accelerate development, implement complex animation mathematics, and refine architectural decisions._
+---
+*This repository is maintained for portfolio and demonstration purposes. For inquiries, please review the contact information available on the live website.*
