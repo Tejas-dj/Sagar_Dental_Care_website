@@ -6,7 +6,7 @@
 
 Built with **Next.js 16** · **TypeScript** · **React 19** · **Framer Motion** · **GSAP**
 
-[![Status](https://img.shields.io/badge/Status-In%20Development-yellow?style=for-the-badge)]()
+[![Live](https://img.shields.io/badge/Status-Live-brightgreen?style=for-the-badge)](https://sagardentalcare.com)
 [![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)]()
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)]()
 [![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)]()
@@ -21,7 +21,7 @@ Sagar Dental Care is a fully custom, production-grade website built for a real d
 
 This isn't a template. Every component, animation, and layout decision was engineered from scratch with a **"Clinical Luxury"** design philosophy: clean enough to feel trustworthy, polished enough to feel high-end.
 
-> 🚧 **The site is currently in development and not yet live.**
+🌍 **Live Website → [sagardentalcare.com](https://sagardentalcare.com)**
 
 ---
 
@@ -127,9 +127,9 @@ JavaScript  ░░░░░░░░░░░░░░░░░░░░░░�
 - [x] Mobile-first responsive design
 - [x] Custom staggered navigation menu
 - [x] Scroll-linked animations and parallax
-- [ ] Final content integration
-- [ ] Performance audit and Lighthouse optimization
-- [ ] Production deployment
+- [x] Final content integration
+- [x] Performance audit and Lighthouse optimization
+- [x] Production deployment
 
 ---
 
