@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sagar Dental Care
 
-## Getting Started
+<div align="center">
+  <h3>Modern, Fast, and Highly Interactive Dental Clinic Website</h3>
+  <p>A premium web experience built for Sagar Dental Care featuring cutting-edge animations, responsive design, and an intuitive user interface.</p>
+  <p>🌍 <strong>Live Website: <a href="https://sagardentalcare.com">sagardentalcare.com</a></strong></p>
+</div>
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Overview
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Sagar Dental Care** is a comprehensive, production-ready web application built to serve as the digital storefront for a dental clinic with 27 years of excellence. Designed with a strict focus on "Clinical Luxury," the application balances high-performance modern web technologies with a highly polished aesthetic.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This project was built from the ground up as a real-world freelance/portfolio project. It leverages the latest features of **Next.js**, advanced animation libraries like **Framer Motion** and **GSAP**, and a fully custom CSS Modules architecture to deliver a seamless, app-like browsing experience.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Key Features
 
-## Learn More
+- **Dynamic Hero Sections**: Immersive video backgrounds integrated seamlessly into page headers.
+- **Complex UI Animations**:
+  - Custom `StaggeredMenu` for mobile navigation with staggered list animations.
+  - Infinite marquee scrolling loops for logos and patient testimonials.
+  - Parallax scrolling effects (`ScrollFloat`) and text reveal animations (`SplitText`, `BlurText`).
+  - Interactive "Spotlight" hover effects on feature cards.
+- **Responsive Design**: A flawless mobile-first implementation ensuring perfect UI rendering across all device breakpoints.
+- **Modern Interactions**: Click-to-copy clipboard functionality for contact information complete with animated toast notifications.
+- **SEO & Performance Optimized**: Built on Next.js App Router with statically generated pages and optimized asset loading.
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Tech Stack & Architecture
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Framework**: [Next.js (v16+)](https://nextjs.org/) with App Router
+- **Language**: [TypeScript](https://www.typescriptlang.org/) & [React (v19)](https://react.dev/)
+- **Styling**: Vanilla Custom CSS Modules with a strict, token-based Global Design System (`globals.css`).
+- **Animations**: [Framer Motion](https://www.framer.com/motion/) & [GSAP](https://gsap.com/)
+- **Smooth Scrolling**: [Lenis](https://lenis.studiofreight.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🧠 Challenges & Solutions
 
-## Deploy on Vercel
+Developing this application presented several unique UI/UX challenges that required creative engineering:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Complex Z-Index Management**:
+   - _Challenge_: Ensuring the mobile `StaggeredMenu` layered correctly over sticky page navigation elements (like the Treatments page category pills) without breaking DOM flow.
+   - _Solution_: Engineered a strict, variable-based z-index scale (`--z-base`, `--z-sticky`, `--z-overlay`) applied globally.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Liquid Smooth Animations**:
+   - _Challenge_: Standard CSS transitions felt rigid for a premium clinic website.
+   - _Solution_: Combined GSAP for intricate layout timelines (like the Staggered Menu opening sequence) and Framer Motion for scroll-linked orchestrations and component mounts.
+
+3. **Responsive Media Constraints**:
+   - _Challenge_: Maintaining the "Clinical Luxury" aesthetic on small viewports where complex elements like the floating Google Ratings widget and floating videos would cluster.
+   - _Solution_: Applied aggressive `@media` query restructuring and utilized CSS `clamp()` functions to fluidly scale typography and layout widths.
+
+## 💻 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/sagar-dental-care.git
+   ```
+
+2. Navigate into the directory and install dependencies:
+
+   ```bash
+   cd sagar-dental-care
+   npm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## 👨‍💻 Author
+
+**Tejas D. Jaiprakash**
+
+- Artificial Intelligence & Machine Learning Engineering Student
+- Passionate about bridging the gap between cutting-edge tech and real-world business needs.
+
+_This project was developed as a real-world deliverable, utilizing AI-assisted workflows to accelerate development, implement complex animation mathematics, and refine architectural decisions._
