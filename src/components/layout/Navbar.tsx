@@ -37,7 +37,7 @@ export default function Navbar() {
             >
                 <div className={styles.navInner}>
                                         <Link href="/" className={styles.logo}>
-                        <img src="/images/Sagar_dental_only _logo.png" alt="Sagar Dental Care" className={styles.logoIcon} style={{ width: '36px', height: '36px', objectFit: 'contain', borderRadius: '50%' }} />
+                        <img src="/images/Sagar_dental_only_logo.png" alt="Sagar Dental Care" className={styles.logoIcon} style={{ width: '36px', height: '36px', objectFit: 'contain', borderRadius: '50%' }} />
                         <div className={styles.logoText}>
                             <span className={styles.logoName}>Sagar Dental Care</span>
                         </div>

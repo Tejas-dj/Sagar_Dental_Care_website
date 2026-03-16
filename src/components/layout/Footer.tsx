@@ -21,7 +21,7 @@ export default function Footer() {
             <div className={styles.footerGrid}>
                                 <div className={styles.footerAbout}>
                     <div className={styles.footerLogo}>
-                        <img src="/images/Sagar_dental_only _logo.png" alt="Sagar Dental Care" style={{ width: '36px', height: '36px', objectFit: 'contain', borderRadius: '50%' }} />
+                        <img src="/images/Sagar_dental_only_logo.png" alt="Sagar Dental Care" style={{ width: '36px', height: '36px', objectFit: 'contain', borderRadius: '50%' }} />
                         <span className={styles.footerLogoName}>Sagar Dental Care</span>
                     </div>
                     <p className={styles.footerDesc}>
