@@ -149,8 +149,10 @@ export default function HomePage() {
           logos={[
             { node: <img src="/images/Ida_Logo.png" alt="Indian Dental Association" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
             { node: <img src="/images/ISOP_Logo.png" alt="Indian Society of Periodontology" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
-            { node: <img src="/images/IAOI_Logo.png" alt="Indian Society of Oral Implantologists" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
             { node: <img src="/images/ISPRP_Logo.png" alt="Indian Society of Prosthodontics-Restorative-Periodontics" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
+            { node: <img src="/images/ADDA_logo.png" alt="Accreditation" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
+            { node: <img src="/images/ISOI_Logo.png" alt="Accreditation" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
+            { node: <img src="/images/OSI_Logo.png" alt="Accreditation" style={{ height: '76px', objectFit: 'contain', opacity: 0.8 }} /> },
           ]}
           direction="left"
           logoHeight={76}

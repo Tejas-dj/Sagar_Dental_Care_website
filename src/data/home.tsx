@@ -19,7 +19,7 @@ export const SERVICES_DATA = [
         image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&q=80&w=800'
     },
     {
-        slug: 'orthodontics',
+        slug: 'orthodontic-treatment',
         icon: <ShieldCheck size={32} />,
         title: 'Orthodontics',
         description: 'Straighten your teeth with invisible aligners or traditional braces.',
@@ -27,7 +27,7 @@ export const SERVICES_DATA = [
         image: 'https://images.unsplash.com/photo-1598256989494-0263856308b9?auto=format&fit=crop&q=80&w=800'
     },
     {
-        slug: 'root-canal',
+        slug: 'root-canal-treatment',
         icon: <Sparkles size={32} />, // Using Sparkles as placeholder if dedicated icon not available yet
         title: 'Root Canal Treatment',
         description: 'Save your natural tooth with our painless, microscopic endodontics.',
@@ -35,7 +35,7 @@ export const SERVICES_DATA = [
         image: 'https://images.unsplash.com/photo-1609840114035-3c981b782dfe?auto=format&fit=crop&q=80&w=800'
     },
     {
-        slug: 'kids-dentistry',
+        slug: 'children-dental-care',
         icon: <Crown size={32} />,
         title: 'Pediatric Dentistry',
         description: 'Gentle, fun, and fearless dental care for your little ones.',
@@ -43,7 +43,7 @@ export const SERVICES_DATA = [
         image: 'https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=800'
     },
     {
-        slug: 'laser-dentistry',
+        slug: 'laser-treatment',
         icon: <ShieldCheck size={32} />,
         title: 'Laser Dentistry',
         description: 'Advanced laser technology for painless gum surgeries and healing.',

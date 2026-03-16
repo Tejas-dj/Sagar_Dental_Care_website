@@ -56,13 +56,21 @@ export default function ContactPage() {
                         <div className={`${styles.contactLayout} container`}>
                 {/* Info Side */}
                 <div className={styles.infoSide}>
-                    <motion.div className={styles.infoCard} {...stagger} transition={{ delay: 0, duration: 0.5 }}>
+                    <motion.a 
+                        href="https://www.google.com/maps/search/?api=1&query=Sagar+Dental+Care+Krishnarajapuram+Bengaluru"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className={styles.infoCard} 
+                        {...stagger} 
+                        transition={{ delay: 0, duration: 0.5 }}
+                        style={{ cursor: 'pointer', textDecoration: 'none', color: 'inherit' }}
+                    >
                         <div className={styles.infoIconWrapper}><MapPin size={24} color="var(--color-teal)" /></div>
                         <div className={styles.infoContent}>
                             <h3>Visit Us</h3>
                             <p>Sri Krishna Nilayam, 69, Devasandra Main Road<br />JC Layout, Krishnarajapuram<br />Bengaluru, Karnataka 560036</p>
                         </div>
-                    </motion.div>
+                    </motion.a>
 
                     <motion.div 
                         className={styles.infoCard} 

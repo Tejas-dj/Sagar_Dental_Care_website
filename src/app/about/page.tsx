@@ -66,11 +66,11 @@ export default function AboutPage() {
                             <img src="/images/Dr.Vidhya Sagar.png" alt="Prof. Dr. D V Vidhya Sagar" style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
                         </div>
                         <div className={styles.mainDoctorInfo}>
-                            <span className={styles.doctorDegree}>BDS, MDS — Prosthodontics & Implantology</span>
+                            <span className={styles.doctorDegree}>BDS, MDS — Periodontics & Implantology</span>
                             <h3 className={styles.doctorName}>Prof. Dr. D V Vidhya Sagar</h3>
                             <p className={styles.doctorTitle}>Founder & Chief Consultant</p>
                             <p className={styles.doctorBio}>
-                                Prof. Dr. D V Vidhya Sagar is a highly accomplished Prosthodontist and Implantologist
+                                Prof. Dr. D V Vidhya Sagar is a highly accomplished Periodontist and Implantologist
                                 with over 27 years of extensive experience in the field of dentistry. He is the founder
                                 of Sagar Dental Care, a premier dental clinic located in Krishnarajapuram, Bengaluru.
                                 His expertise spans a wide range of advanced dental procedures, including dental implants,

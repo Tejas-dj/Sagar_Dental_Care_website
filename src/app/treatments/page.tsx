@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { Search } from 'lucide-react';
 import { TREATMENT_CATEGORIES, TREATMENTS, getTreatmentsByCategory } from '@/data/treatments';
@@ -55,9 +56,18 @@ export default function TreatmentsPage() {
 
     return (
         <>
-                        <section className={styles.treatmentsHero}>
-                <div className={styles.heroParticles} />
-                <div className={styles.heroTitleWrapper} style={{ marginBottom: '1rem' }}>
+            <section className={styles.treatmentsHero}>
+                <div style={{ position: 'absolute', inset: 0, zIndex: 0, opacity: 0.25, width: '100%', height: '100%' }}>
+                    <Image 
+                        src="/images/ccomprehensive_care.jpg"
+                        alt="Comprehensive Dental Care Services"
+                        fill
+                        priority
+                        style={{ objectFit: 'cover', objectPosition: 'center' }}
+                    />
+                </div>
+                <div className={styles.heroParticles} style={{ zIndex: 1 }} />
+                <div className={styles.heroTitleWrapper} style={{ marginBottom: '1rem', position: 'relative', zIndex: 2 }}>
                     <SplitText
                         text="Comprehensive Care"
                         className={styles.heroTitle}

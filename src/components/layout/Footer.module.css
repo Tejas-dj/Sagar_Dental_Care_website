@@ -196,6 +196,9 @@
 .bottomLinks {
     display: flex;
     gap: var(--space-6);
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .bottomLink {
@@ -227,4 +230,15 @@
         grid-template-columns: 1fr 1fr;
         gap: var(--space-10);
     }
+}
+
+/* ── Custom Utilities ────────────────────────── */
+.designerLink {
+    color: var(--color-gray-400);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.designerLink:hover {
+    color: var(--color-white);
 }

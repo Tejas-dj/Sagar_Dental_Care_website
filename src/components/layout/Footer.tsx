@@ -82,8 +82,15 @@ export default function Footer() {
                     © 2026 Sagar Dental Care. All rights reserved.
                 </p>
                 <div className={styles.bottomLinks}>
-                    <a href="#" className={styles.bottomLink}>Privacy Policy</a>
-                    <a href="#" className={styles.bottomLink}>Terms of Service</a>
+                    <span className={styles.bottomLink} style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                        Powered and Designed by
+                        <a href="https://www.linkedin.com/in/tejas-d-jaiprakash-b5b0b0b0b0/" target="_blank" rel="noopener noreferrer" className={styles.designerLink}>
+                            CobaltKite.Creatives (Tejas D. Jaiprakash)
+                        </a>
+                    </span>
+                    <span className={styles.bottomLink}>
+                        Contact: <a href="tel:+916366713839" className={styles.designerLink}>+91 6366713839</a>
+                    </span>
                 </div>
             </div>
         </footer>

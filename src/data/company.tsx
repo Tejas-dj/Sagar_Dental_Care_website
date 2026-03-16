@@ -32,7 +32,7 @@ export const ASSOCIATES_DATA = [
         degree: 'B.D.S, M.D.S',
         specialization: 'Consultant Orthodontist',
         bio: 'Dr. Raghavendra S.R. is a skilled orthodontist dedicated to creating beautifully aligned smiles using both traditional braces and modern aligner systems. His methodical approach to treatment planning ensures predictable, lasting results for patients of all ages.',
-        image: '/images/Doctor_profile_placeholder.png',
+        image: '/images/Dr. Raghavendra.png',
     },
     {
         name: 'Dr. R. Satish',
@@ -46,6 +46,6 @@ export const ASSOCIATES_DATA = [
         degree: 'BDS, M.B.A',
         specialization: 'Laser Dentistry — Dip. in Laser Dentistry (IALD & AALZ Germany)',
         bio: 'Dr. S.R. Sairam is a certified laser dentistry specialist with internationally recognized training from IALD and AALZ Germany. He pioneers minimally invasive, pain-free dental treatments using state-of-the-art laser technology, making advanced care accessible and comfortable for every patient.',
-        image: '/images/Doctor_profile_placeholder.png',
+        image: '/images/Dr. Sairam.png',
     },
 ];
