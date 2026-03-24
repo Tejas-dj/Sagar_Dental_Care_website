@@ -58,7 +58,7 @@ export default function HomePage() {
             transition={{ duration: 0.5, delay: 0.4 }}
             style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', border: 'none', background: 'transparent' }}
           >
-            <span style={{ fontFamily: 'var(--font-heading)', fontSize: 'var(--text-4xl)', fontWeight: 700, color: 'var(--color-gold)', letterSpacing: 'var(--tracking-wide)' }}>Sagar Dental Care</span>
+            <span style={{ fontFamily: 'var(--font-heading)', fontSize: 'clamp(1.5rem, 5vw, 2.25rem)', fontWeight: 700, color: 'var(--color-gold)', letterSpacing: 'var(--tracking-wide)' }}>Sagar Dental Care</span>
           </motion.div>
 
           {/* Replaced Title with SplitText */}
