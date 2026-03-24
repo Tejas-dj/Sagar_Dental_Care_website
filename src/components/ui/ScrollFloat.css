@@ -1,26 +1,37 @@
 .scroll-float {
-    overflow: visible;
-    /* Allows the animation to move without clipping */
+    overflow: hidden;
     padding: 0 5%;
     width: 100%;
+    max-width: 100%;
 }
 
-scroll-float-text {
+.scroll-float-text {
     display: block;
     font-size: clamp(1.5rem, 6vw, 3.5rem);
-    /* Scaled for a stronger H2 presence */
     font-weight: 800;
     text-align: center;
     line-height: 1.2;
-    max-width: 85vw;
-    /* Keeps text away from mobile screen edges */
+    max-width: 100%;
     margin: 0 auto;
-    word-break: keep-all;
-    hyphens: none;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    hyphens: auto;
 }
 
-/* Add this if your JS allows you to target words specifically */
 .word {
     display: inline-block;
-    white-space: nowrap;
+}
+
+.char {
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .scroll-float {
+        padding: 0 2%;
+    }
+
+    .scroll-float-text {
+        font-size: clamp(1.25rem, 5vw, 2rem);
+    }
 }

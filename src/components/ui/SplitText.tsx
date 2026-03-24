@@ -160,6 +160,7 @@ const SplitText: React.FC<SplitTextProps> = ({
             textAlign,
             overflow: 'hidden',
             display: 'inline-block',
+            maxWidth: '100%',
             whiteSpace: 'normal',
             wordWrap: 'break-word',
             willChange: 'transform, opacity'

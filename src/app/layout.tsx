@@ -48,7 +48,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className={`${playfair.variable} ${dmSans.variable}`}>
         <Navbar />
-        <main>{children}</main>
+        <main style={{ overflowX: 'hidden', maxWidth: '100%' }}>{children}</main>
         <Footer />
         <ScrollToTop />
       </body>
