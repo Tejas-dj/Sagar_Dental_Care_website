@@ -84,7 +84,7 @@ export default function Footer() {
                 <div className={styles.bottomLinks}>
                     <span className={styles.bottomLink} style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                         Powered and Designed by
-                        <a href="https://www.linkedin.com/in/tejas-d-jaiprakash-b5b0b0b0b0/" target="_blank" rel="noopener noreferrer" className={styles.designerLink}>
+                        <a href="https://www.linkedin.com/in/tejas-d-jaiprakash/" target="_blank" rel="noopener noreferrer" className={styles.designerLink}>
                             CobaltKite.Creatives (Tejas D. Jaiprakash)
                         </a>
                     </span>
